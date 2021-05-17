@@ -1,0 +1,66 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    font-family: $poppins;
+    background-color: $red;
+    .left-container{
+        color: white;
+        .site-info{
+            font-size: 16px;
+            font-weight: 400;
+        }
+    }
+
+    .right-container{
+        .site-promo{
+            background-color: $blue;
+            text-align: center;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            margin: 0px;
+            color: white;
+            font-size: 400;
+            box-shadow: 0 7px hsla(249, 10%, 26%, 0.404);
+            margin-bottom: 30px;
+        }
+        #form, .site-promo{
+            width: 90%;
+            border-radius: 7px;
+            box-shadow: 0 8px hsla(249, 10%, 26%, 0.404);
+        }
+        
+        #form{
+            padding-top: 20px;
+            display: flex;
+            flex-direction: column;
+            background-color: white;
+            
+        }
+        input, button{
+            padding: 17px 25px;
+            margin-bottom: 18px;
+            border: 1px solid $DarkBlue;
+            border-radius: 3px;
+        }
+        button{
+            text-transform: uppercase;
+            font-weight: 600;
+            background-color: $green;
+            color: white;
+        }
+        p{
+            margin-bottom: 10px;
+            font-size: 13px;
+            text-align: center;
+        }
+        span{
+            font-weight: 600;
+            color: $red;
+        }
+    }
+
+
+}

@@ -1,0 +1,181 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #ff7a7a;
+}
+
+body .left-container {
+  color: white;
+}
+
+body .left-container .site-info {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+body .right-container .site-promo {
+  background-color: #6055a5;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin: 0px;
+  color: white;
+  font-size: 400;
+  -webkit-box-shadow: 0 7px rgba(62, 60, 73, 0.404);
+          box-shadow: 0 7px rgba(62, 60, 73, 0.404);
+  margin-bottom: 30px;
+}
+
+body .right-container #form, body .right-container .site-promo {
+  width: 90%;
+  border-radius: 7px;
+  -webkit-box-shadow: 0 8px rgba(62, 60, 73, 0.404);
+          box-shadow: 0 8px rgba(62, 60, 73, 0.404);
+}
+
+body .right-container #form {
+  padding-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: white;
+}
+
+body .right-container input, body .right-container button {
+  padding: 17px 25px;
+  margin-bottom: 18px;
+  border: 1px solid #3e3c49;
+  border-radius: 3px;
+}
+
+body .right-container button {
+  text-transform: uppercase;
+  font-weight: 600;
+  background-color: #38cc8c;
+  color: white;
+}
+
+body .right-container p {
+  margin-bottom: 10px;
+  font-size: 13px;
+  text-align: center;
+}
+
+body .right-container span {
+  font-weight: 600;
+  color: #ff7a7a;
+}
+
+@media only screen and (min-width: 575px) {
+  body {
+    margin: 0px;
+    background-image: url(/images/bg-intro-desktop.png);
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center;
+    background-color: #ff7a7a;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  main {
+    width: 80vw;
+    height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .left-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 50%;
+    height: 100%;
+  }
+  .left-container .title {
+    font-size: 48px;
+    margin-bottom: 0px;
+  }
+  .right-container {
+    width: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 574px) {
+  body {
+    background-image: url(/images/bg-intro-mobile.png);
+    background-position: top;
+  }
+  .left-container {
+    height: 30vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+  }
+  .left-container .title {
+    font-size: 30px;
+  }
+  .right-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+/*# sourceMappingURL=style.css.map */
